@@ -23,7 +23,7 @@ This system integrates hardware and software components to create a reliable and
 
 ## Project Documentation
 
-The project is thoroughly documented in the provided [Power_Window_Control_System.pdf](docs/Power_Window_Control_System.pdf) report, which includes system layout, circuit diagrams, flowcharts, and detailed explanations of the code and hardware setup.
+The project is thoroughly documented in the provided [Power_Window_Control_System.pdf]([docs/Power_Window_Control_System.pdf](https://github.com/Esmtra/Power-Window-Control-System/blob/main/docs/Report.pdf)) report, which includes system layout, circuit diagrams, flowcharts, and detailed explanations of the code and hardware setup.
 
 ## Repository Structure
 
