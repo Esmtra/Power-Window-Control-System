@@ -30,7 +30,7 @@ In this project, our team developed a Power Window Control System utilizing the 
 - **Limit Switches**: Installed at the top and bottom of the window frame to detect the window's maximum open and closed positions.
 - **Push Buttons**: Used for manual control of the window and simulating obstacle detection. Separate buttons are provided on both the driver and passenger control panels.
 
-![Circuit Wiring Diagram](path/to/your/image2.png)
+![Circuit Wiring Diagram](https://github.com/Esmtra/Power-Window-Control-System/blob/main/diagrams/circuit_wiring_diagram.png)
 
 ### Software Components
 - **FreeRTOS**: Provides the framework for multitasking and task management.
@@ -38,7 +38,7 @@ In this project, our team developed a Power Window Control System utilizing the 
 - **Semaphore and Mutex Handling**: Used to handle resource sharing between tasks, preventing race conditions.
 - **Interrupt Service Routines (ISRs)**: Configured to handle inputs from the limit switches and obstacle detection button.
 
-![Hardware Components](path/to/your/image3.png)
+![Hardware Components](https://github.com/Esmtra/Power-Window-Control-System/blob/main/diagrams/HW.png)
 
 ### Integration and Communication
 The system architecture is designed for seamless integration of hardware and software components. Tasks communicate via queues, sending messages between the control interface and motor control tasks to coordinate the window's movements. Mutexes and semaphores ensure that access to shared resources is properly synchronized among tasks.
@@ -59,7 +59,7 @@ The system architecture is designed for seamless integration of hardware and sof
 ### Finite State Machine (FSM) Implementation
 The system logic is governed by a Finite State Machine, which manages the states of the window (e.g., opening, closing, stopped). The FSM ensures smooth and logical transitions between states based on user inputs and sensor outputs.
 
-![Simulink State Machine](path/to/your/image4.png)
+![Simulink State Machine](https://github.com/Esmtra/Power-Window-Control-System/blob/main/diagrams/Simulink_SM.png)
 
 ### Tools
 The FSM is visualized and tested using tools like MATLAB Simulink before implementation to ensure accuracy and reliability.
@@ -67,7 +67,7 @@ The FSM is visualized and tested using tools like MATLAB Simulink before impleme
 ### Debugging and Validation
 The system underwent rigorous testing, using both simulated inputs and real-world trials to validate each component’s functionality and the system’s overall reliability. Corner cases, such as simultaneous button presses and rapid command changes, were particularly focused on to ensure the system's robustness.
 
-![Flowchart](path/to/your/image5.png)
+![Flowchart](https://github.com/Esmtra/Power-Window-Control-System/blob/main/diagrams/flowchart.png)
 
 ## References
 1. Tiva™ C Series TM4C123GH6PM Microcontroller Data Sheet. Texas Instruments, 2021.
