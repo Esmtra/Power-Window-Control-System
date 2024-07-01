@@ -1,19 +1,9 @@
 # Power Window Control System using Tiva C running FreeRTOS
 
-## Team
-- Eslam Sayed Rady Mtrawy (2301468)
-- Doha Gamal Amin (2301579)
-- Anas (2201822)
-- Joseph Hanna (2201657)
-
-Under the supervision of:
-- Dr. Sherif Hammad
-- Eng. Hesham Salah
-
 ## Introduction
 In this project, our team developed a Power Window Control System utilizing the Tiva C Series TM4C123GH6PM microcontroller and FreeRTOS. The project demonstrates the capabilities of a real-time operating system (RTOS) in handling multiple tasks such as sensor input processing, motor control, and user interface management within an embedded system. This project highlights the importance of real-time task management, synchronization, and effective use of system resources in automotive safety applications. By integrating components such as DC motors, push buttons, and limit switches, the system mimics the operation of a full-scale power window, providing insights into the complexities of automotive control systems.
 
-![Power Window Control System]([path/to/your/image1.png](https://github.com/Esmtra/Power-Window-Control-System/blob/main/diagrams/PWCS.png))
+![Power Window Control System](https://github.com/Esmtra/Power-Window-Control-System/blob/main/diagrams/PWCS.png)
 
 ## System Requirements and Features
 ### 1. Dual Control Panels
